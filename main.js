@@ -153,7 +153,7 @@ function left() {
 
 function right() {
     if (superhero_x <= 900) {
-        superhero_x = superhero_y + superhero_width;
+        superhero_x = superhero_x + superhero_width;
         console.log("Superhero width = " + superhero_width);
         console.log("When right arrow key is pressed, X = " + superhero_x + " | Y = " + superhero_y);
         canvas.remove(superhero_raw_image);
